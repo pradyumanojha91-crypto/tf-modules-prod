@@ -1,0 +1,12 @@
+title = "Custom Password Detection"
+
+[[rules]]
+id = "hardcoded-password"
+
+description = "Detect hardcoded passwords"
+
+regex = '''(?i)\b[a-zA-Z0-9_]*password[a-zA-Z0-9_]*\b\s*=\s*["'][^"']+["']'''
+
+secretGroup = 0
+
+tags = ["password", "terraform", "secret"]

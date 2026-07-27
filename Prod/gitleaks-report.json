@@ -1,0 +1,50 @@
+[
+ {
+  "RuleID": "hardcoded-password",
+  "Description": "Detect hardcoded passwords",
+  "StartLine": 61,
+  "EndLine": 61,
+  "StartColumn": 6,
+  "EndColumn": 50,
+  "Match": "admin_password                  = \"new@12345\"",
+  "Secret": "admin_password                  = \"new@12345\"",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.431617,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "password",
+   "terraform",
+   "secret"
+  ],
+  "Fingerprint": "terraform.tfvars:hardcoded-password:61"
+ },
+ {
+  "RuleID": "hardcoded-password",
+  "Description": "Detect hardcoded passwords",
+  "StartLine": 62,
+  "EndLine": 62,
+  "StartColumn": 6,
+  "EndColumn": 46,
+  "Match": "disable_password_authentication = \"false\"",
+  "Secret": "disable_password_authentication = \"false\"",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 4.189886,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "password",
+   "terraform",
+   "secret"
+  ],
+  "Fingerprint": "terraform.tfvars:hardcoded-password:62"
+ }
+]
